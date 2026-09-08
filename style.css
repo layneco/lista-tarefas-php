@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9dce9;
+    margin: 0;
+    padding: 50px 20px;
+    color: #222;
+    position: relative;
+}
+
+/* Gatinhos decorativos */
+body::before {
+    content: "🐈‍⬛";
+    position: fixed;
+    left: 25px;
+    bottom: 25px;
+    font-size: 55px;
+}
+
+body::after {
+    content: "🐈‍⬛";
+    position: fixed;
+    right: 25px;
+    top: 90px;
+    font-size: 45px;
+}
+
+/* Cartão principal */
+.container {
+    background-color: white;
+    max-width: 520px;
+    margin: auto;
+    padding: 35px;
+    border-radius: 18px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+    border-top: 6px solid #d94f83;
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    color: #c23870;
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 32px;
+}
+
+.subtitulo {
+    text-align: center;
+    color: #777;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+/* Formulário */
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: #222;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #e5a8c1;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #d94f83;
+    box-shadow: 0 0 0 2px #f9dce9;
+}
+
+/* Botão */
+button {
+    width: 100%;
+    padding: 13px;
+    background-color: #d94f83;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #c23870;
+}
+
+/* Lista */
+.lista {
+    margin-top: 32px;
+}
+
+.lista h2 {
+    color: #c23870;
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+
+/* Cada tarefa */
+.tarefa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff1f6;
+    border-left: 5px solid #d94f83;
+    padding: 14px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.tarefa strong {
+    color: #222;
+}
+
+/* Prioridades */
+.prioridade {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px 9px;
+    border-radius: 12px;
+}
+
+.prioridade.alta {
+    background-color: #f7c6d9;
+    color: #a51f57;
+}
+
+.prioridade.média {
+    background-color: #f8e3b5;
+    color: #8a6200;
+}
+
+.prioridade.baixa {
+    background-color: #d5efd9;
+    color: #28743a;
+}
