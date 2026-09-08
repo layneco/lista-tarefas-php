@@ -36,8 +36,6 @@ A interface foi personalizada com uma identidade visual em tons de rosa, branco 
 ---
 
 **Projeto desenvolvido para a Agenda 04 - Desenvolvimento de Sistemas II.**
-## 🖼️ Demonstração
 
 Aplicação desenvolvida e testada localmente no XAMPP.
 
-![Demonstração da aplicação](demonstracao.png)
